@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en" id="home">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Pangkalan Panduk</title>
+  </head>
+  <body class="body">
+
+  <!--coding menu heading-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+          <div class="container">
+            <a class="navbar-brand text-white font-weight-bold "  href="#home">PANGKALAN PANDUK</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto ">
+                <a class="nav-item nav-link page-scroll" id="text-menu" href="javascript:;" onclick="goTo(this,'#home')">BERANDA</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="text-menu" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      TENTANG DESA
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item " href="javascript:;" onclick="goTo(this,'#sejarah')">Sejarah Desa</a>
+                    <div class="dropdown-divider"></div>
+                      <a class="dropdown-item " href="javascript:;" onclick="goTo(this,'#peta')">Peta Desa</a>
+                    <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="javascript:;" onclick="goTo(this,'#penduduk')">Data Penduduk Desa</a>
+                    </div>
+                </li>
+                <a class="nav-item nav-link" id="text-menu" data-toggle="modal" data-target="#modal-surat" href="">AJUKAN SURAT</a>
+                 <a class="nav-item nav-link" id="text-menu" data-toggle="modal" data-target="#status-surat" href="">STATUS SURAT</a>
+                <a class="nav-item nav-link" id="text-menu" data-toggle="modal" data-target="#modal-login" href="">LOG IN</a>                
+              </div>
+            </div>
+          </div>
+        </nav>
+  <!--akhir coding menu heading-->
+
+  <!--coding isi bergambar-->
+      <div class="jumbotron" id="index">
+        <div class="container">
+          <div class="text-head">
+              <h1>Selamat Datang</h1>
+              <h2>di portal resmi desa Pangkalan Panduk</h2>    
+          </div>
+        </div>
+      </div>
+  <!--akhir coding isi bergambar-->      
+  
+
+  <section id="sejarah" class="py-5">
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <h4 class="text-center">Sejarah Desa</h4>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-sm-8 offset-2 texx">
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="peta" class="py-5">
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <h4 class="text-center">Peta Wilayah Desa</h4>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col ">
+              <img src="img/peta.jpg" style="width: 100%; height: 100%;" class="shadow img-thumbnail">
+            </div>
+        </div>
+    </div>    
+  </section>
+
+  <section id="penduduk" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+              <h4 class="text-center">Data Penduduk</h4>  
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class=" col-sm-3 text-center mb-3 mt-3">
+                  <div class="card  shadow">
+                      <div class="card-header">
+                          <h5 class="">Jumlah Jiwa</h5>
+                      </div>
+                      <div class="card-body">
+                            <h5>2000</h5>
+                      </div>  
+                  </div>
+        </div>
+        <div class=" col-sm-3 text-center mb-3 mt-3">
+                  <div class="card  shadow">
+                      <div class="card-header">
+                          <h5 class="">Jumlah Jiwa</h5>
+                      </div>
+                      <div class="card-body">
+                            <h5>2000</h5>
+                      </div>  
+                  </div>
+        </div>
+        <div class=" col-sm-3 text-center mb-3 mt-3">
+                  <div class="card  shadow">
+                      <div class="card-header">
+                          <h5 class="">Jumlah Jiwa</h5>
+                      </div>
+                      <div class="card-body">
+                            <h5>2000</h5>
+                      </div>  
+                  </div>
+        </div>
+        <div class=" col-sm-3 text-center mb-3 mt-3">
+                  <div class="card  shadow">
+                      <div class="card-header">
+                          <h5 class="">Jumlah Jiwa</h5>
+                      </div>
+                      <div class="card-body">
+                            <h5>2000</h5>
+                      </div>  
+                  </div>
+        </div>
+      </div>
+
+      <div class="row mt-4 mb-4">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-header ">
+                      <h5 class="">Tabel Informasi Tingkat Pendidikan</h5>
+                    </div>
+                    <div class="card-body">
+                      <table class="table table-bordered">
+                        <thead>
+                          <tr>
+                            <th>No</th>
+                            <th>Tingkat Pendidikan</th>
+                            <th>Jumlah</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td scope="row">1</td>
+                            <td>SD</td>
+                            <td>100</td>
+                          </tr>
+                          <tr>
+                            <td scope="row">2</td>
+                            <td>Sarjana</td>
+                            <td>100</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+        </div>
+
+    </div>
+  </section>
+  <!--isi-->
+    
+  
+
+  <!--footer-->
+    <div class="footer text-white">
+      <div class="container">
+        <div class="fot-left">
+          <p><span class="font-weight-bold">Kantor Desa Pangkalan Panduk</span><br>Jalan Lintas Bono RT 04 RW 03<br>Kec. Kerumutan, Pelalawan</p> 
+        </div>
+        <div class="fot-right">
+          <p><span class="font-weight-bold">Kontak</span><br>Email : aaa@gmail.com<br>Telp. 08xxx00000000000</p>
+        </div>
+      </div>
+    </div>
+  <!--akhir footer-->
+  
+
+          <!--code untuk modal login-->
+        <div class="modal fade" id="modal-login" role="dialog" arialabelledby="modalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Silahkan Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                      <span>&times;</span>
+                    </button>
+                  </div>  
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label>Username :</label>
+                        <input type="text" name="username" class="form-control">
+                        <label>Password :</label>
+                        <input type="password" class="form-control" name="pw">
+                      </div>
+                      <button class="btn btn-primary btn-block">Login</button>
+                    </form>
+                  </div>
+                </div>        
+              </div>
+        </div>
+          <!--akhir code untuk modal login-->
+
+          <!-- modal ajukan surat-->
+        <div class="modal fade" id="modal-surat" role="dialog" arialabelledby="modalLabel" aria-hidden="true">
+          <div class="modal-dialog"role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">Ajukan Surat</h5>
+                   <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                      <span>&times;</span>
+                    </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                      <label>Masukkan NIK Anda  : </label>
+                        <input type="text" name="nik" class="form-control" placeholder="NIK Anda">
+                      <label>Masukkan Nama Anda  : </label>
+                        <input type="text" name="nama" class="form-control" placeholder="Nama Anda">
+                      <label>Masukkan Tanggal Lahir  : </label>
+                        <input type="date" name="" class="form-control">
+                      <label>Masukkan Tempat Lahir  : </label>
+                        <input type="text" name="nik" class="form-control">
+                          <label>Pilih Jenis Surat  : </label>
+                      <select class="form-control">
+                          <option >--pilih--</option>
+                          <option >Pilihan 1</option>
+                          <option >Pilihan 2</option>  
+                      </select>                      
+                  </div>
+                      <button class="btn btn-primary btn-block">Ajukan</button>
+                  
+                </form>
+              </div>
+            </div>
+          </div>    
+        </div>
+          <!-- akhir modal ajukan surat-->
+
+            <!-- modal status surat-->
+        <div class="modal fade" id="status-surat" role="dialog" arialabelledby="modalLabel" aria-hidden="true">
+          <div class="modal-dialog"role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">Status Permohonan Anda</h5>
+                   <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                      <span>&times;</span>
+                    </button>
+              </div>
+              <div class="modal-body">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>Nama Pemohon</th>
+                      <th>Status Surat</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Rio</td>
+                      <td class="text-warning">Belum diproses</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Vio</td>
+                      <td class="text-primary">Telah diproses</td>
+                    </tr>
+                  </tbody>
+                </table>  
+              </div>
+            </div>
+          </div>    
+        </div>
+          <!-- akhir modal status surat-->
+           
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>  
+        <script>
+        function goTo(t, page){
+            animateScroll($(t).offset().top, $(page).offset().top);
+        }
+
+        function animateScroll(from, pos, time=1000){
+          pos = pos - 65
+          if(from > pos){
+            var tmp = from
+            from = pos
+            pos = from
+          }
+
+          var t = 1000/(from - pos)
+          anim(from, pos, t)
+        }
+
+        function anim(loop, target, time){  
+            setTimeout(function(){
+              console.log(loop)
+            window.scroll({
+                top: loop, 
+                left: 0, 
+                behavior: 'smooth'
+            });
+            if(loop < target){
+                anim(loop+10, target, time);
+            }
+            }, time);
+        }
+    </script>
+
+  </body>
+</html>
