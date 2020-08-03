@@ -1,0 +1,89 @@
+ html{
+ 		
+      scroll-behavior:smooth;
+    }
+
+body{
+	background-color: rgb(225,225,225);
+}
+
+.navbar, .footer{
+		background-color: #023;
+}
+.jumbotron{
+	background-image: url(../img/bg1.jpg);
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+}
+.text-head{
+	color: white;
+	margin-top: 230px;
+	opacity: 0.9;
+}
+#text-menu{
+	padding: 10px 20px;
+	color: white;
+}
+#text-menu:hover{
+	color:black;
+	transition: all 0.5s;
+}
+.main-content{
+	margin-top: -30px;
+	padding: 30px 0;
+}
+
+.title{
+	margin-bottom: 10px;
+	border-bottom: 2px solid #000;
+}
+.title:hover{
+	margin-left: 5px;
+	margin-right: -5px;
+}
+
+@media(max-width: 670px){
+	
+	.navbar-brand{
+		font-size: 15px;
+	}
+
+	.jumbotron{
+		height: 600px;
+	}	
+
+	.text-head h1{
+		font-size: 30px;
+	}
+	.text-head h2{
+		font-size: 20px;
+	}
+
+	.texx{
+		margin-left: 0;
+	}	
+
+	.footer p{
+	height: 60px;
+	width: 100%;
+	font-size: 9px;
+	}
+	
+
+}
+
+
+.footer{
+	height: 90px;
+	width: 100%;
+	font-size: 14px;
+}
+.fot-left{
+	padding-top: 10px;
+	float: left;
+}
+.fot-right{
+	padding-top: 10px;
+	float: right;
+}
